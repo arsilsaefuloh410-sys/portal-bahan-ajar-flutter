@@ -1,0 +1,29 @@
+name: portal_bahan_ajar_sma5
+description: "Portal Bahan Ajar Informatika SMAN 5 Kota Ternate - aplikasi Flutter untuk guru."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  shared_preferences: ^2.3.0
+  path_provider: ^2.1.0
+  open_filex: ^4.4.0
+  google_fonts: ^6.2.0
+  url_launcher: ^6.3.0
+  file_picker: ^13.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
